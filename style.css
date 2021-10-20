@@ -22,9 +22,14 @@ main {
 
 .menu-title {
   background-color: #EEE;
-  padding: 10px 10px 0;
+  margin-right: 30px;
+  padding: 10px;
   width: 300px;
   position: relative;
+}
+
+.menu-title:last-child {
+  margin-right: 0;
 }
 
 .menu-title h3 {
@@ -78,6 +83,6 @@ footer {
   }
 
   .menu-title:last-child {
-    margin-bottom: 0;
+    margin: 0 auto;
   }
 }
